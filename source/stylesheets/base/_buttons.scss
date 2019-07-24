@@ -1,0 +1,30 @@
+$_button-background-color: $action-color;
+$_button-background-color-hover: shade($action-color, 20%);
+
+$my-red: #F13030;
+$light-grey: #96A1A4;
+$lighter-grey: #FBFBFF;
+
+.btn-main {
+  background-color: $my-red;
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  font-weight: lighter;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  opacity: 1;
+  height: 25px;
+  width: 120px;
+  font-size: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: $my-red;
+  margin-top: 9px;
+  color: white;
+    &:hover {
+    text-decoration: none;
+    background-color: #ef0202;
+    color: white;
+  }
+}
+r
