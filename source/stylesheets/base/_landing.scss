@@ -69,17 +69,21 @@ left: 10px;
 }
 
 .get-in-touch a {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid $my-red;
   position: absolute;
-  top: 4px;
-  right: 5px;
+  top: 7px;
+  right: 7px;
   color: $my-red;
-  padding-top: 3px;
-  padding-right: 8px;
+  padding: 2px 8px;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   &:hover {
     text-decoration: none;
-    color: #ef0202;
+    color: white;
+    background-color: $my-red;
+
   }
 }
